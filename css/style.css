@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: 0;
+  text-decoration: none;
+}
+
+.fullcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url(./patt.jpg);
+  background-size: cover;
+}
+
+.fullcontainer .gamecontainer {
+  height: 500px;
+  width: 700px;
+  background-color: bisque;
+  position: relative;
+  background-image: url(./grass.jpg);
+  background-size: cover;
+  -webkit-box-shadow: -4px 3px 46px 69px rgba(0, 0, 0, 0.41);
+          box-shadow: -4px 3px 46px 69px rgba(0, 0, 0, 0.41);
+}
+
+.fullcontainer .gamecontainer #redboll {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+}
+
+.fullcontainer .gamecontainer #blueboll {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+/*# sourceMappingURL=style.css.map */
